@@ -1,0 +1,22 @@
+# 1) List to store names of students
+students = ["Rahul", "Priya", "Amit", "Sneha"]
+
+# 2) Tuple to store subject or department
+department = ("Computer Science", "Mathematics", "Physics")
+
+# 3) Dictionary to store each student's marks
+marks = {
+    "Rahul": 85,
+    "Priya": 90,
+    "Amit": 85,
+    "Sneha": 78
+}
+
+# 4) Set to find unique marks
+unique_marks = set(marks.values())
+
+# Printing all data
+print("Students List:", students)
+print("Department Tuple:", department)
+print("Marks Dictionary:", marks)
+print("Unique Marks:", unique_marks)
